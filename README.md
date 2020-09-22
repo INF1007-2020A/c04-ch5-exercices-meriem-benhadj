@@ -24,21 +24,29 @@ Vous devez compléter les fonctions suivantes du fichier [exercice.py](exercice.
 
 ```python
 def convert_to_absolute(number: float) -> float:
-    return 0
+    if number>=0:
+    return number
+    else:
+    return number*-1
 
 
 def use_prefixes() -> List[str]:
     prefixes, suffixe = 'JKLMNOPQ', 'ack'
 
-    return [""]
+list=[]
+for i in prefixes:
+ list.append(pre+surfixe)
+    return list
 
 
 def prime_integer_summation() -> int:
-    return 0
+    somme=0
+    for i in range[1:101]:
+    somme+=i
 
 
 def factorial(number: int) -> int:
-    return 0
+   
 
 
 def use_continue() -> None:
